@@ -29,13 +29,22 @@
         <li><a href="#">책방</a></li>
         <li><a href="#">캠퍼스픽</a></li>
       </ul>
+
       <div class="icons">
-        <button class="icon-btn">
-          <img src="../img/img/icn_m_chat_gray800_light.png" alt="채팅" />
-        </button>
-        <button class="icon-btn">
-          <img src="../img/img/icn_m_account_gray800_light.png" alt="프로필" />
-        </button>
+        <div class="icon-btnhugger">
+          <img
+            src="../img/img/icon_communication_chat_filled_gray500_light.svg"
+            alt="채팅"
+            class="icon-btn"
+          />
+        </div>
+        <div class="icon-btnhugger">
+          <img
+            src="../img/img/icon_account_user_filled_gray500_light.svg"
+            alt="프로필"
+            class="icon-btn"
+          />
+        </div>
       </div>
     </header>
     <hr />
@@ -155,7 +164,7 @@
               <a href="#">
                 🦁멋사 면접 후기🦁
                 <img
-                  src="../img/img/container.articles.buttons.posvote.png"
+                  src="../img/img/container.articles.vote.png"
                   alt="따봉아이콘"
                   class="positive"
                 />
@@ -164,38 +173,41 @@
             </div>
           </div>
         </div>
-        <div class="new_post">
-          새 글을 작성해주세요!
-          <a href="#"
-            ><img
-              src="../img/img/container.write.background.png"
-              alt="작성 아이콘"
-              class="pen_icon"
-          /></a>
-        </div>
+        <a href="../page/post.html">
+          <div class="new_post">
+            <p class="newpforhover">새 글을 작성해주세요!</p>
+            <a href="#"
+              ><img
+                src="../img/img/container.write.background.png"
+                alt="작성 아이콘"
+                class="pen_icon"
+            /></a></div
+        ></a>
         <div>
-          <div id="articles">
-            <ul>
-              <li class="article_title">안녕하세요</li>
-              <li class="article_text">저녁 뭐 드셨나요</li>
-              <li class="article_reaction">
-                <img
-                  src="../img/img/container.articles.buttons.posvote.png"
-                  alt="따봉 아이콘"
-                  class="positive"
-                />
-                <p class="likes">1</p>
-                | 방금 | 익명
-              </li>
-            </ul>
-          </div>
+          <a href="./detail.html">
+            <div id="articles">
+              <ul>
+                <li class="article_title">안녕하세요</li>
+                <li class="article_text">저녁 뭐 드셨나요</li>
+                <li class="article_reaction">
+                  <img
+                    src="../img/img/container.articles.vote.png"
+                    alt="따봉 아이콘"
+                    class="positive"
+                  />
+                  <p class="likes">1</p>
+                  | 방금 | 익명
+                </li>
+              </ul>
+            </div></a
+          >
           <div id="articles">
             <ul>
               <li class="article_title">🦁멋사 면접 후기🦁</li>
               <li class="article_text">이렇게 좋은 동아리일 줄은 몰 랐 어</li>
               <li class="article_reaction">
                 <img
-                  src="../img/img/container.articles.buttons.posvote.png"
+                  src="../img/img/container.articles.vote.png"
                   alt="따봉 아이콘"
                   class="positive"
                 />
@@ -232,20 +244,20 @@
         <div class="boxes_first">실시간 인기 글</div>
         <div id="content_box">
           <ul>
-            <li class="article_title">🦁멋사 면접 후기🦁</li>
+            <li class="live_title">🦁멋사 면접 후기🦁</li>
             <li class="contentbox_text">이렇게 좋은 동아리일 줄은 몰 랐 어</li>
             <li class="article_reaction">
               비밀게시판
               <img
-                src="../img/img/container.articles.buttons.posvote.png"
+                src="../img/img/container.articles.vote.png"
                 alt="따봉 아이콘"
-                class="positive"
+                class="pos_com_smaller"
               />
               <p class="likes">86</p>
               <img
                 src="../img/img/container.articles.comment.png"
                 alt="댓글 아이콘"
-                class="comment"
+                class="pos_com_smaller"
               />
               <p class="mentions">3</p>
             </li>
@@ -253,27 +265,30 @@
         </div>
         <div id="content_box">
           <ul>
-            <li class="article_title">됐다 덕우들!!! 나 됐어!!!</li>
+            <li class="live_title">됐다 덕우들!!! 나 됐어!!!</li>
             <li class="contentbox_text">좆 됐 어</li>
             <li class="article_reaction">
               👨‍💻디지털소프트웨···
               <img
-                src="../img/img/container.articles.buttons.posvote.png"
+                src="../img/img/container.articles.vote.png"
                 alt="따봉 아이콘"
-                class="positive"
+                class="pos_com_smaller"
               />
               <p class="likes">67</p>
               <img
                 src="../img/img/container.articles.comment.png"
                 alt="댓글 아이콘"
-                class="comment"
+                class="pos_com_smaller"
               />
               <p class="mentions">8</p>
             </li>
           </ul>
         </div>
 
-        <div class="boxes">HOT 게시물</div>
+        <div class="boxes">
+          HOT 게시물
+          <p class="contentbox_rightinforms">더보기</p>
+        </div>
         <div id="hot_content_box">
           멋쟁이🕶
           <p class="contentbox_rightinforms">03/29 17:44</p>
@@ -301,22 +316,22 @@
         <div class="boxes">학교 소식</div>
         <div id="content_box">
           <ul>
-            <li class="article_title">덕성여대 제 99대 총학생회 멋사</li>
+            <li class="live_title">덕성여대 제 99대 총학생회 멋사</li>
             <li class="contentbox_text">
               안녕하세요. 제 99대 총학생회 멋사입니다.···
             </li>
             <li class="article_reaction">
               총학생회
               <img
-                src="../img/img/container.articles.buttons.posvote.png"
+                src="../img/img/container.articles.vote.png"
                 alt="따봉 아이콘"
-                class="positive"
+                class="pos_com_smaller"
               />
               <p class="likes">17</p>
               <img
                 src="../img/img/container.articles.comment.png"
                 alt="댓글 아이콘"
-                class="comment"
+                class="pos_com_smaller"
               />
               <p class="mentions">0</p>
             </li>
