@@ -28,7 +28,6 @@
 }
 #pw {
   background-color: whitesmoke;
-  border: none;
   width: 700px;
   height: 40px;
   display: flex;
@@ -40,7 +39,6 @@
 #submitbtn {
   color: white;
   background-color: grey;
-  border: none;
   width: 705px;
   height: 40px;
   display: flex;
