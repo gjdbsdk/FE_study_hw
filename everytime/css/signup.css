@@ -12,6 +12,7 @@
 }
 #id {
   background-color: whitesmoke;
+  border: none;
   width: 700px;
   height: 40px;
   display: flex;
@@ -23,6 +24,7 @@
 }
 #pw {
   background-color: whitesmoke;
+  border: none;
   width: 700px;
   height: 40px;
   display: flex;
@@ -35,6 +37,7 @@
 
 #repw {
   background-color: whitesmoke;
+  border: none;
   width: 700px;
   height: 40px;
   display: flex;
@@ -46,6 +49,7 @@
 }
 #email {
   background-color: whitesmoke;
+  border: none;
   width: 700px;
   height: 40px;
   display: flex;
@@ -57,6 +61,7 @@
 }
 #nickname {
   background-color: whitesmoke;
+  border: none;
   width: 700px;
   height: 40px;
   display: flex;
@@ -69,6 +74,7 @@
 #submitbtn {
   color: white;
   background-color: grey;
+  border: none;
   width: 707px;
   height: 40px;
   display: flex;
